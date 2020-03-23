@@ -23,7 +23,7 @@ function loadPokemons() {
     var searchBar = document.getElementById('name');
     searchBar.addEventListener('keyup', function filter (){
       if(searchBar.value != ""){
-        var name = searchBar.value;
+        var name = searchBar.value.toLowerCase();
         pokemons = results.filter(pokemon => !pokemon.name.search(name));
         addcount.style.display = 'none';
         displayPokemon(pokemons, pokemons.length);
