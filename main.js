@@ -16,7 +16,11 @@ function loadPokemons() {
     var counts = 10
     var addcount = document.getElementById('addBtn');
     addcount.addEventListener('click', ()=>{
-      counts +=10;
+      if(counts+10>=pokemons.length){
+        counts = pokemons.length;
+      }else{
+        counts +=10;
+      }
       displayPokemon(pokemons,counts)
     });
     displayPokemon(pokemons, counts);
