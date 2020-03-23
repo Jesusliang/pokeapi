@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #222222;
+}
+
+header {
+  height: 50vh;
+  width: 100%;
+  background-color: #c22626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header input {
+  width: 200px;
+  padding: 10px;
+}
+
+#pokemonList {
+  width: 60%;
+  margin: 100px auto;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(240px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  justify-items: center;
+  grid-gap: 100px 20px;
+}
+
+#pokemonList .card {
+  border: 1px solid black;
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#pokemonList .card .img_div {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pokemonList .card .img_div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#pokemonList .card .container {
+  background-color: #c22626;
+  padding: 10px 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#pokemonList .card .container h2 {
+  font-size: 2rem;
+  color: white;
+  margin: 10px 0px;
+}
+
+#pokemonList .card .container h3 {
+  color: black;
+  margin-top: 20px;
+}
+
+#pokemonList .card .container .abilities {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#pokemonList .card .container .abilities li:before {
+  display: inline-block;
+  content: '-';
+  margin-right: 10px;
+}
+
+#pokemonList .noShow {
+  display: none;
+}
+
+#addBtn {
+  display: block;
+  margin: 50px auto;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
