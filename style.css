@@ -9,7 +9,6 @@ body {
 
 header {
   height: 50vh;
-  width: 100%;
   background-color: #c22626;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,7 +31,7 @@ header input {
 }
 
 #pokemonList {
-  width: 60%;
+  max-width: 70%;
   margin: 100px auto;
   list-style: none;
   display: -ms-grid;

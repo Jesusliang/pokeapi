@@ -8,7 +8,6 @@ body{
 }
 header{
     height: 50vh;
-    width: 100%;
     background-color:$red ;
     display: flex;
     flex-direction: column;
@@ -20,7 +19,7 @@ header{
     }
 }
 #pokemonList{
-    width: 60%;
+    max-width: 70%;
     margin: 100px auto;
     list-style: none;
     display: grid;
