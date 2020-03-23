@@ -37,10 +37,11 @@ header input {
   list-style: none;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(240px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  -ms-grid-columns: (minmax(220px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   justify-items: center;
   grid-gap: 100px 20px;
+  padding: 0;
 }
 
 #pokemonList .card {

@@ -24,9 +24,10 @@ header{
     margin: 100px auto;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat( auto-fill, minmax(240px, 1fr) );
+    grid-template-columns: repeat( auto-fill, minmax(220px, 1fr) );
     justify-items: center;
     grid-gap: 100px 20px;
+    padding: 0;
     .card{
         border: 1px solid black;
         width: 220px;
