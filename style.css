@@ -31,7 +31,7 @@ header input {
 }
 
 #pokemonList {
-  max-width: 70%;
+  width: 70%;
   margin: 100px auto;
   list-style: none;
   display: -ms-grid;
